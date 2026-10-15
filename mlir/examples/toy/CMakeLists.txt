@@ -6,6 +6,7 @@ macro(add_toy_chapter name)
   add_llvm_example(${name} ${ARGN})
 endmacro(add_toy_chapter name)
 
+add_subdirectory(Ch0Eff)
 add_subdirectory(Ch1)
 add_subdirectory(Ch2)
 add_subdirectory(Ch3)
